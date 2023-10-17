@@ -5,7 +5,6 @@
   
   environment.systemPackages = with pkgs; [
     nil
-    bat
     wine-wayland
     binutils
     bash
@@ -35,7 +34,6 @@
     xdg-desktop-portal
     wl-clipboard
     mako
-    zsh-powerlevel10k
     neofetch
     nodejs
     swaybg
@@ -50,14 +48,11 @@
     pavucontrol
     zoxide
     pamixer
-    git
     swww
-    fzf
     neovim
     lutris
     lxappearance
     alacritty
-    lazygit
     lsd
     wofi
     pandoc
