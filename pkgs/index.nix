@@ -2,10 +2,14 @@
 
 {
   services.flatpak.enable = true;
-  
+
   environment.systemPackages = with pkgs; [
+    zathura
+    zip
+    git
     nil
     wine-wayland
+    obsidian
     binutils
     bash
     iw
@@ -43,6 +47,9 @@
     playerctl
     unzip
     gnumake
+    discord 
+    obsidian 
+    spotify
     bitwarden
     spotify
     pavucontrol
