@@ -23,6 +23,7 @@
     imagemagick
     gcc
     gtk3
+    home-manager
     gtk4
     htop-vim
     gtk2
@@ -45,11 +46,8 @@
     unzip
     gnumake
     bitwarden
-    zathura
     spotify
-    tealdeer
     pavucontrol
-    firefox
     zoxide
     pamixer
     git
@@ -61,10 +59,7 @@
     alacritty
     lazygit
     lsd
-    discord
     wofi
-    qbittorrent
-    obsidian
     pandoc
     unrar
   ];
