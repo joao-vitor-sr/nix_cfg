@@ -4,6 +4,7 @@
   services.flatpak.enable = true;
   
   environment.systemPackages = with pkgs; [
+    nil
     bat
     wine-wayland
     binutils
@@ -46,7 +47,6 @@
     bitwarden
     zathura
     spotify
-    tmux
     tealdeer
     pavucontrol
     firefox
@@ -80,5 +80,6 @@
     ./kmonad/index.nix
     ./wine.nix
     ./python.nix
+    ./tmux.nix
   ];
 }
