@@ -10,7 +10,13 @@ let
     "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz";
 
 in {
-  imports = [ ./hardware-configuration.nix ./common.nix ];
+  imports = [ ./hardware-configuration.nix /home/jvsr/.config/nix/common.nix ];
+
+  # gnome
+  # imports = [ /home/jvsr/.config/nix/environments/gnome.nix ]
+
+  # hyprland
+  # imports = [ /home/jvsr/.config/nix/environments/hyprland.nix ]
 
   hardware.opengl.driSupport = true;
 

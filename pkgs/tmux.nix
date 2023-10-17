@@ -20,11 +20,11 @@
       set -g @dracula-show-battery false
       set -g @dracula-show-powerline true
       set -g @dracula-refresh-rate 10
-      
+
       # Shift Alt vim keys to switch windows
       bind -n M-H previous-window
       bind -n M-L next-window
-      
+
       # Vim style pane selection
       bind h select-pane -L
       bind j select-pane -D 

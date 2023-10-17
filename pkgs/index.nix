@@ -32,9 +32,6 @@
     gtk2
     xwayland
     nixfmt
-    (waybar.overrideAttrs (oldAttrs: {
-      mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-    }))
     xdg-desktop-portal
     wl-clipboard
     mako
@@ -47,8 +44,8 @@
     playerctl
     unzip
     gnumake
-    discord 
-    obsidian 
+    discord
+    obsidian
     spotify
     bitwarden
     spotify

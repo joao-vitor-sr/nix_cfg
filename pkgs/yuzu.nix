@@ -1,6 +1,3 @@
-{ config, pkgs, ... }:
-{
-  environment.systemPackages = with pkgs; [
-  yuzu-mainline
-  ];
+{ config, pkgs, ... }: {
+  environment.systemPackages = with pkgs; [ yuzu-mainline ];
 }
