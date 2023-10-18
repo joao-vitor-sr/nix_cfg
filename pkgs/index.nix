@@ -20,7 +20,6 @@
     wget
     grim
     slurp
-    cargo
     jansson
     libgccjit
     imagemagick
@@ -74,5 +73,6 @@
     ./wine.nix
     ./python.nix
     ./tmux.nix
+    ./rust.nix
   ];
 }
