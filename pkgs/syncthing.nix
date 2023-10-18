@@ -15,7 +15,7 @@
         };
         "home_computer" = {
           id =
-            "TFNFXWI-AGLJNC7-4BFAWNJ-NNGLTVK-AN3PZGS-EL6PPNM-J4F6222-BZSL4AP";
+            "YLT7OJA-FYKXHZM-22RPUWV-B2TNP6A-OAAVOFZ-74IIVWC-W4VTAKP-VRWCYQG";
         };
         "smartphone" = {
           id =
