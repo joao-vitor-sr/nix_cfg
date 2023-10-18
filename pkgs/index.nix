@@ -48,7 +48,6 @@
     bitwarden
     spotify
     pavucontrol
-    zoxide
     pamixer
     swww
     neovim
