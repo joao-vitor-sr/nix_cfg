@@ -43,7 +43,6 @@
     playerctl
     unzip
     gnumake
-    discord
     obsidian
     spotify
     bitwarden
