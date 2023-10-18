@@ -8,6 +8,11 @@
       overrideDevices = true;
       overrideFolders = true;
       devices = {
+
+        "laptop" = {
+          id =
+            "CFPJZ3N-6JLG723-3GQTO2C-F4WJCUJ-GTQVLK3-NKXBQDG-KYFGYDU-ASKSJAY";
+        };
         "home_computer" = {
           id =
             "TFNFXWI-AGLJNC7-4BFAWNJ-NNGLTVK-AN3PZGS-EL6PPNM-J4F6222-BZSL4AP";
@@ -20,11 +25,15 @@
       folders = {
         "Obsidian Notes" = {
           path = "/home/jvsr/dcs/obsidian/";
-          devices = [ "smartphone" "home_computer" ];
+          devices = [ "smartphone" "home_computer" "laptop" ];
         };
         "Wallpapers" = {
           path = "/home/jvsr/pcs/bgs/";
-          devices = [ "home_computer" ];
+          devices = [ "home_computer" "laptop" ];
+        };
+        "Codes" = {
+          path = "/home/jvsr/cds/";
+          devices = [ "home_computer" "laptop" ];
         };
       };
     };
