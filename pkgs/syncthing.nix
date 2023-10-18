@@ -31,10 +31,6 @@
           path = "/home/jvsr/pcs/bgs/";
           devices = [ "home_computer" "laptop" ];
         };
-        "Codes" = {
-          path = "/home/jvsr/cds/";
-          devices = [ "home_computer" "laptop" ];
-        };
       };
     };
   };
