@@ -56,7 +56,6 @@
     neovim
     lutris
     lxappearance
-    alacritty
     lsd
     wofi
     pandoc

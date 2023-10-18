@@ -17,11 +17,11 @@ in {
     # /home/jvsr/.config/nix/environments/hyprland.nix 
   ];
 
-  # gnome
-  # imports = []
-
-  # hyprland
-  # imports = []
+  xdg.portal.enable = true;
+  
+  # activate this if you are using hyprland
+  # xdg.portal.extraPortals =
+  #   [ pkgs.xdg-desktop-portal-gtk pkgs.xdg-desktop-portal-wlr ];
 
   hardware.opengl.driSupport = true;
 
