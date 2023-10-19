@@ -5,6 +5,9 @@
 
   environment.systemPackages = with pkgs; [
     zip
+    php
+    php83Packages.composer
+    lutris
     git
     nil
     wine-wayland
@@ -35,7 +38,6 @@
     mako
     neofetch
     nodejs
-    swaybg
     yarn
     nvtop-amd
     texlive.combined.scheme-full
@@ -44,16 +46,11 @@
     gnumake
     obsidian
     spotify
-    bitwarden
-    spotify
     pavucontrol
     pamixer
     swww
     neovim
-    lutris
     lxappearance
-    lsd
-    wofi
     pandoc
     unrar
   ];
