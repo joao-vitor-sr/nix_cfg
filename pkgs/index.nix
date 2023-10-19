@@ -7,11 +7,9 @@
     zip
     php
     php83Packages.composer
-    lutris
     git
     nil
     wine-wayland
-    obsidian
     binutils
     bash
     iw
@@ -44,11 +42,8 @@
     playerctl
     unzip
     gnumake
-    obsidian
-    spotify
     pavucontrol
     pamixer
-    swww
     neovim
     lxappearance
     pandoc
@@ -58,7 +53,6 @@
   imports = [
     ./syncthing.nix
     ./docker.nix
-    ./steam.nix
     ./openssh.nix
     ./printing.nix
     ./yuzu.nix
