@@ -1,7 +1,3 @@
-{ config, pkgs, ... }:
-{
-  environment.systemPackages = with pkgs; [
-  cargo
-  rustc
-  ];
+{ config, pkgs, ... }: {
+  environment.systemPackages = with pkgs; [ cargo rustc ];
 }

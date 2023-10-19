@@ -4,7 +4,6 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
-    zathura
     zip
     git
     nil
