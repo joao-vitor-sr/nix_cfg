@@ -9,6 +9,7 @@
     php83Packages.composer
     git
     nil
+    steam
     wine-wayland
     binutils
     bash
