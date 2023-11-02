@@ -4,12 +4,13 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
+  glibc
+  dconf
     zip
     php
     php83Packages.composer
     git
     nil
-    steam
     wine-wayland
     binutils
     bash
@@ -63,5 +64,6 @@
     ./python.nix
     ./tmux.nix
     ./rust.nix
+    ./steam.nix
   ];
 }
