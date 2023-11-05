@@ -1,11 +1,11 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
-  glibc
-  dconf
+    glibc
+    dconf
     zip
     php
     php83Packages.composer
@@ -65,5 +65,6 @@
     ./tmux.nix
     ./rust.nix
     ./steam.nix
+    ./jackett.nix
   ];
 }
