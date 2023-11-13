@@ -4,7 +4,9 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
+  rPackages.gbm
     glibc
+    mpv
     dconf
     zip
     php
@@ -36,7 +38,6 @@
     xdg-desktop-portal
     wl-clipboard
     mako
-    neofetch
     nodejs
     yarn
     nvtop-amd
@@ -47,7 +48,6 @@
     pavucontrol
     pamixer
     neovim
-    lxappearance
     pandoc
     unrar
   ];
