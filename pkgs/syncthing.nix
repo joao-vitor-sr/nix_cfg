@@ -32,6 +32,10 @@
             path = "/home/jvsr/pcs/bgs/";
             devices = [ "home_computer" "laptop" ];
           };
+          "Books" = {
+            path = "/home/jvsr/dcs/books/";
+            devices = [ "home_computer" "laptop" "smartphone" ];
+          };
         };
       };
     };
