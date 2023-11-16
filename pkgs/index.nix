@@ -37,7 +37,6 @@
     nixfmt
     xdg-desktop-portal
     wl-clipboard
-    mako
     nodejs
     yarn
     nvtop-amd
@@ -46,6 +45,8 @@
     unzip
     gnumake
     pavucontrol
+    clang-tools
+    rocmPackages.llvm.clang-unwrapped
     pamixer
     neovim
     pandoc
@@ -62,7 +63,6 @@
     ./kmonad/index.nix
     ./wine.nix
     ./python.nix
-    ./tmux.nix
     ./rust.nix
     ./steam.nix
     ./jackett.nix
