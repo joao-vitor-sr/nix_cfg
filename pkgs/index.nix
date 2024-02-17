@@ -16,6 +16,7 @@
     wine-wayland
     binutils
     bash
+    webcord
     iw
     libnotify
     file
