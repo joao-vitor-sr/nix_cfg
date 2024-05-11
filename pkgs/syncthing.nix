@@ -10,32 +10,44 @@
       settings = {
         devices = {
 
-          "laptop" = {
-            id =
-              "CFPJZ3N-6JLG723-3GQTO2C-F4WJCUJ-GTQVLK3-NKXBQDG-KYFGYDU-ASKSJAY";
-          };
           "home_computer" = {
             id =
               "YLT7OJA-FYKXHZM-22RPUWV-B2TNP6A-OAAVOFZ-74IIVWC-W4VTAKP-VRWCYQG";
           };
           "smartphone" = {
             id =
-              "FHMPUPO-E2IK7PZ-B6EGDX3-CLFC7ZS-H5HCCW4-IJRF3V3-SFYL3PN-LST2YQG";
+              "GU3EVGS-MZIKSBK-CLLQI4A-RESMHIN-K7PK5SQ-KG5V7RI-T7PZO4K-FA6OZQD";
           };
         };
         folders = {
-          "Obsidian Notes" = {
-            path = "/home/jvsr/dcs/obsidian/";
-            devices = [ "smartphone" "home_computer" "laptop" ];
-          };
           "Wallpapers" = {
             path = "/home/jvsr/pcs/bgs/";
-            devices = [ "home_computer" "laptop" ];
+            devices = [ "home_computer"  ];
+          };
+          "Phone Wallpapers" = {
+            path = "/home/jvsr/pcs/bgs_phone/";
+            devices = [ "home_computer" "smartphone" ];
+          };
+          "Keys" = {
+            path = "/home/jvsr/keys/";
+            devices = [ "home_computer" "smartphone" ];
           };
           "Books" = {
             path = "/home/jvsr/dcs/books/";
-            devices = [ "home_computer" "laptop" "smartphone" ];
+            devices = [ "home_computer" "smartphone" ];
           };
+          "Obsidian" = {
+              path = "/home/jvsr/dcs/obsidian/";
+              devices = [ "home_computer" "smartphone" ];
+          };
+          "LogSeq" = {
+              path = "/home/jvsr/dcs/logseq/";
+              devices = [ "home_computer" "smartphone" ];
+          };
+          "Memes" = {
+              path = "/home/jvsr/pcs/memes/";
+              devices = [ "home_computer" "smartphone" ];
+            };
         };
       };
     };

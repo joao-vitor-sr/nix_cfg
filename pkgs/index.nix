@@ -4,11 +4,12 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
-  rPackages.gbm
+    rPackages.gbm
     glibc
     mpv
     dconf
     zip
+    floorp
     php
     php83Packages.composer
     git
