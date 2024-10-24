@@ -19,6 +19,8 @@
     pulse.enable = true;
   };
 
+  services.gvfs.enable = true;
+
   # Configure keymap in X11
   services.xserver = {
     layout = "us";
@@ -26,8 +28,11 @@
   };
 
   hardware.bluetooth.enable = true; # enables support for Bluetooth
-  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  hardware.bluetooth.powerOnBoot =
+    true; # powers up the default Bluetooth controller on boot
   services.blueman.enable = true;
+
+  environment.sessionVariables = rec { GTK_THEME = "Gruvbox:dark"; };
 
   imports = [ ./pkgs/index.nix ./cfgs/fonts.nix ];
 }

@@ -28,24 +28,17 @@
             path = "/home/jvsr/pcs/bgs_phone/";
             devices = [ "home_computer" "smartphone" ];
           };
-          "Keys" = {
-            path = "/home/jvsr/keys/";
-            devices = [ "home_computer" "smartphone" ];
-          };
           "Books" = {
             path = "/home/jvsr/dcs/books/";
             devices = [ "home_computer" "smartphone" ];
           };
-          "Obsidian" = {
-              path = "/home/jvsr/dcs/obsidian/";
-              devices = [ "home_computer" "smartphone" ];
-          };
-          "LogSeq" = {
-              path = "/home/jvsr/dcs/logseq/";
-              devices = [ "home_computer" "smartphone" ];
-          };
           "Memes" = {
               path = "/home/jvsr/pcs/memes/";
+              devices = [ "home_computer" "smartphone" ];
+            };
+
+          "Tmp" = {
+              path = "/home/jvsr/dcs/tmp/";
               devices = [ "home_computer" "smartphone" ];
             };
         };
