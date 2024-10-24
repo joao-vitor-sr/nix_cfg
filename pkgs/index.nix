@@ -78,7 +78,6 @@
     ./docker.nix
     ./openssh.nix
     ./printing.nix
-    ./yuzu.nix
     ./gnome.nix
     ./kmonad/index.nix
     ./wine.nix
